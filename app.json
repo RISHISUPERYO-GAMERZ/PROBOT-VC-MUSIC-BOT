@@ -1,0 +1,38 @@
+{
+  "name":  "PROBOT VC MUSIC PLAYER,
+  "description": "A telegram bot which plays song in Telegram's new feature voice chat.",
+  "repository": "https://github.com/hackelite01/TgGroupMusicVcBot",
+  "keywords": ["Music","telegram","telegram bot","bot","pyrogram","voice chat","music player"],
+  "success_url": "https://t.me/Rishisuperyo",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "SESSION_NAME": {
+      "description": "add Session Name",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Add SUDO user's I'd.",
+      "value": ""
+    },
+    "DURATION_LIMIT": {
+      "description": "Add Duration Time",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+     }
+  ]
+}
