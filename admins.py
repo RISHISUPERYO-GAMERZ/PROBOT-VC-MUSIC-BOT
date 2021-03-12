@@ -21,3 +21,4 @@ def get(chat_id: Union[str, int]) -> Union[List[User], bool]:
         return admins[chat_id]
 
     return False
+
