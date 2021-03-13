@@ -2,6 +2,7 @@
   "name":  "PROBOT VC MUSIC PLAYER,
   "description": "A telegram bot which plays song in Telegram's new feature voice chat.",
   "repository": "https://github.com/Rishisuperyo-Gamerz/Probot-Vc-music-Bot",
+  "logo":https://telegra.ph/file/9cc8f013903ba52eb8694.jpg
   "keywords": ["Music","telegram","telegram bot","bot","pyrogram","voice chat","music player"],
   "success_url": "https://t.me/Rishisuperyo",
   "env": {
