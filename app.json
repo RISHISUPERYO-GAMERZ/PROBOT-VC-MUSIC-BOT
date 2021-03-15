@@ -1,0 +1,42 @@
+{
+    "name": "PROBOT GROUP MUSIC BOT",
+    "description": "Bot made by @Rishisuperyo and @Rocky_8218⚡😎,A bot that can upload medias to Telegra.ph😎⚡",
+    "logo": "https://telegra.ph/file/7aea352775b51be68d820.jpg",
+    "keywords": [
+        "Voice Chat Music Player",
+        "Music Player",
+        "Telegram Bot",
+    ],
+    "website": "",
+    "repository": "https://github.com/RISHISUPERYO-GAMERZ/PROBOT-VC-MUSIC-BOT/",
+    "success_url": "https://telegram.dog/lamao",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "STRING SESSION":{
+            "description":Apna string session nikalo termux sa repo : Https://GitHub.com/Rishisuperyo-Gamerz/telesetup",
+            "value": "" 
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
